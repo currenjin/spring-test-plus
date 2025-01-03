@@ -1,0 +1,13 @@
+plugins {
+	id 'java-library'
+	id 'java'
+}
+
+dependencies {
+	api "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+	api "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+	api "org.assertj:assertj-core:${assertjVersion}"
+
+	compileOnly "org.projectlombok:lombok:${lombokVersion}"
+	annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+}
