@@ -1,3 +1,6 @@
 rootProject.name = 'spring-test-plus'
 
 include 'spring-test-plus-core'
+include 'spring-test-plus-autoconfigure'
+include 'spring-test-plus-starter'
+include 'spring-test-plus-sample'

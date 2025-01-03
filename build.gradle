@@ -13,16 +13,14 @@ plugins {
 }
 
 allprojects {
-    apply plugin: 'java'
-
     group = 'com.currenjin'
-    version = '0.1.0-SNAPSHOT'
+    version = '0.0.1'
 
     repositories {
         mavenCentral()
     }
 }
 
-wrapper {
-    gradleVersion = '8.8'
+subprojects {
+    apply plugin: 'java-library'
 }
